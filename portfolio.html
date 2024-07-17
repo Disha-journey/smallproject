@@ -1,0 +1,60 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.js"></script>
+    <script src="imagesslider.js"></script>
+</head>
+
+<body id="body">
+    <header>
+        <nav>
+            <ul>
+                <li class="heading"><a href="#hero">Home</a></li>
+                <li class="heading"><a href="#projects">Projects</a></li>
+                <li class="heading"><a href="#images">Images</a></li>
+            </ul>
+        </nav>
+        <select name="" id="themecolorChange" onchange="theme()">
+            <option value="" >Switch Theme</option>
+            <option value="black">Black Theme</option>
+            <option value="white">White Theme</option>
+        </select>
+    </header>
+    <div class="hero">
+        <h1><a name="hero">Welcome to My Portfolio</h1>
+        <p>Hello! My name is Disha, and I hail from the vibrant region of Punjab. 
+            I have a deep passion for dancing and sketching, which keep my creative juices flowing.
+           Recently, I completed my first year of studies and am eagerly diving deeper into the world of technology. 
+           I have a keen interest in tech and am enthusiastic about EDC (Entrepreneurship Development Cell), always looking for new opportunities to learn and grow.</p>
+    </div>
+
+    <div class="projects">
+        <h1 id="colour1"><a name="projects">My Projects</h1>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p> In Project 1, I created a template of art, combining my love for creativity with my technical skills.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p> For Project 2, I developed a simple login frame, further enhancing my understanding of web development and user authentication.</p>
+        </div>
+        <div class="project">
+            <h3>Project 3</h3>
+            <p>In Project 3, I made a to-do list, showcasing my ability to manage tasks efficiently and apply practical solutions to everyday needs.            </p>
+        </div>
+    </div>
+
+    <div class="images">
+        <h1 id="colour2"><a name="images">Images</a></h1>
+        <div class="timeslider"><img src="animals/animal1.jpeg" alt="animals"></div>
+    </div>
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+</body>
+
+</html>
